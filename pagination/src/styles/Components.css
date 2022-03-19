@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    background-color: white;
+}
+
+.post__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vh;
+    height: 40vh;
+}
+
+.post__text{
+    height: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    overflow: hidden;
+}
+
+.post__btn{
+    display: flex;
+    min-height: 3.6vh;
+    justify-content: space-between;
+}
+
+.post__preview{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    padding-bottom: 1vh;
+}
+
+.post__title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 1vh 0 1vh 0;
+}
+
+.cont__img{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: red;
+
+}
+
+.post__page{
+    width: 1100px;
+}
+
+.post__img{
+    width: 100%;
+}
+
+.postPage__body{
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin: 1vh 0;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    opacity: 80%;
+    margin-top: 1vh;
+}
+
+.post__comments{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+
+h5{
+    font-weight: 900;
+    font-size: 16px;
+}
+h6{
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 50%;
+}
+
+
+
+.postCom__title{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}

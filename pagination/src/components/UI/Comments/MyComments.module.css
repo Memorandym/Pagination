@@ -1,0 +1,93 @@
+.MyComments{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.hr{
+    border: rgba(222,222,222,0.54) 1px solid;
+    margin: 1vh 0;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    min-height: 2.5vh;
+}
+
+.inputEmail{
+    outline: none !important;
+    border: none;
+    background-color: rgba(222,222,222,0.54);
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    border-radius: 2px;
+    padding-left: 1px;
+
+    margin-right: 1vh;
+
+}
+
+.inputEmail::-webkit-input-placeholder {
+    display: flex;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.inputMsg{
+    width: 100%;
+
+    outline: none !important;
+    border: none;
+    background-color: rgba(222,222,222,0.54);
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    border-radius: 2px;
+    padding-left: 1px;
+
+    margin-right: 1vh;
+}
+.inputMsg::-webkit-input-placeholder {
+    display: flex;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.inputName{
+    outline: none !important;
+    border: none;
+    background-color: rgba(222,222,222,0.54);
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    border-radius: 2px;
+    padding-left: 1px;
+
+    margin-right: 1vh;
+}
+
+.inputName::-webkit-input-placeholder {
+    display: flex;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.inputBtn{
+    outline: none !important;
+    border: none;
+    background-color: rgba(222,222,222,0.54);
+    border-radius: 2px;
+
+    width: 20vh;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(117,117,117);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}

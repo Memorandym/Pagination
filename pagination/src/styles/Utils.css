@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 60%;
+}
+
+.post{
+    display: flex;
+    padding: 15px;
+    border: 2px solid #5958f6;
+    border-radius: 5px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.post__content{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.post__btns {
+    display: flex;
+    flex-direction: row;
+    min-width: 7rem;
+    justify-content: space-between;
+}
+
+.post__mask{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.post_img{
+   width: 100%;
+}
+
+
+.post__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.post-enter {
+    transform: translate(-250px);
+    opacity: 0;
+}
+
+.post-enter-active {
+    transform: translate(0px);
+    opacity: 1;
+    transition: all 500ms ease-in;
+}
+
+.post-exit {
+    opacity: 1;
+}
+
+.post-exit-active {
+    transform: translate(-250px);
+    opacity: 0;
+    transition: all 500ms ease-in;
+}
+

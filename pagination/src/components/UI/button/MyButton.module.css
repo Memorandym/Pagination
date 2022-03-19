@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.myBtn {
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
+
+    color:#5958f6;
+    background: transparent;
+    border: 2px solid #5958f6;
+    border-radius: 3px;
+    cursor: pointer;
+
+    white-space: nowrap;
+}
+
